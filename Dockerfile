@@ -1,7 +1,7 @@
-FROM sickp/ubuntu-ruby:2.4.1
+FROM ruby:2.4.4
 
 MAINTAINER Mateus Luiz <mateuslfreitasb@gmail.com>
 
-RUN apt-get python2.7 && \
+RUN apk add --no-cache python && \
     python -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip
