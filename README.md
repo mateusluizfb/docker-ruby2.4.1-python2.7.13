@@ -1,2 +1,2 @@
-# docker-ruby2.4.1-python2.7.13
-Dockerfile using sickp/alpine-ruby:2.4.1 and python 2.7.x with pip.
+# docker-ruby2.4.4-python2.7
+Dockerfile using sickp/ruby:2.4.4-alpine and python 2.7 with pip.
