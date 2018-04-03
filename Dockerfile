@@ -1,4 +1,4 @@
-FROM ruby:2.4.4
+FROM ruby:2.4.4-alpine3.7
 
 MAINTAINER Mateus Luiz <mateuslfreitasb@gmail.com>
 
